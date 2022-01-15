@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/template.css">
+    <link rel="stylesheet" href="./css/uicons/css/uicons-regular-rounded.css">
+    <title>Creating Templates in Vanilla Javascript</title>
+</head>
+<body class="font-helvetica">
+    <div class="padding-all-10"></div>
+
+    <div class="width-90 margin-auto">
+        <div data-three-images="1"></div>
+
+        <div class="height-30"></div>
+
+        <div data-three-images="0"></div>
+
+        <div class="padding-all-20"></div>
+
+    </div>
+
+    <script>
+        const threeImages = [
+            {
+                title: "Exclusive Memberships",
+                items:[
+                    {img: "./images/t1.webp", name: "Nike Air Pro", url: "/", btn: "Shop"},
+                    {img: "./images/t2.webp", name: "Nike Air Pro 1", url: "/", btn: "Shop 1"},
+                    {img: "./images/t3.webp", name: "Nike Air Pro 2", url: "/", btn: "Shop 2"}
+                ]
+            },
+            {
+                title: "Payment Options",
+                items:[
+                    {img: "./images/t4.webp", name: "Nike Air Pro 99", url: "/", btn: "Google Pay"},
+                    {img: "./images/t5.jpg", name: "Nike Air Pro 17", url: "/", btn: "Stripe"},
+                    {img: "./images/t6.webp", name: "Nike Air Pro 22", url: "/", btn: "Paypal"}
+                ]
+            },
+        ];
+    </script>
+    <script src="./script/index.js"></script>
+</body>
+</html>

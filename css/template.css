@@ -1,0 +1,31 @@
+img.max-img{
+    max-width: 100%;
+}
+
+a.btn-link:hover{
+    color: rgb(26, 26, 26);
+}
+
+a.btn-link span{
+    font-family: "Helvetica";
+    position: relative;
+}
+
+a.btn-link span::after{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    bottom: -5px;
+    left: 0;
+}
+
+a.btn-link span:hover::after{
+    content:"";
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    background-color: black;
+    left: 0;
+}
